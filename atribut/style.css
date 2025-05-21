@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #0073e6;
+}
+
+/* ------ Penyesuaian Logo ------ */
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; /* Spasi antara logo dan judul */
+    padding-left: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Vollkorn", serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 40px;
+}
+
+/* Gaya untuk judul tambahan di atas tombol */
+.Judul {
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+/* Fitur Tambah data dan Cetak */
+
+.center-buttons {
+    display: flex;
+    justify-content: center; /* Memusatkan tombol di tengah */
+    margin-bottom: 20px;
+}
+
+.btn-tambah, .btn-cetak {
+    padding: 10px 20px;
+    background-color: #28a745;
+    font-family: "Indie Flower", cursive;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.btn-cetak {
+    background-color: #17a2b8; /* Warna tombol cetak */
+}
+
+.btn-tambah:hover {
+    background-color: #218838;
+}
+
+.btn-cetak:hover {
+    background-color: #138496;
+}
+
+/* ----- Fitur Pencarian ----- */
+.form-cari {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.form-cari input {
+    padding: 5px;
+    font-size: 14px;
+    width: 200px;
+    margin-right: 5px;
+}
+
+.btn-cari {
+    padding: 6px 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn-cari:hover {
+    background-color: #0056b3;
+}
+/* ----- Akhir Pencarian ----- */
+
+
+
+
+
+/* ------ Penyesuaian Tabel ------ */
+/* Atur keseluruhan tabel */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Garis header tabel (untuk baris dan kolom) */
+thead {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Garis pada sel kolom header (th) */
+th {
+    padding: 12px 20px;
+    text-align: left;
+    font-family: "ABeeZee", sans-serif;
+    border-top: 2px solid #000; /* Warna untuk garis atas (baris) */
+    border-bottom: 2px solid #000; /* Warna untuk garis bawah (baris) */
+    border-left: 2px solid #000; /* Warna untuk garis kiri (kolom) */
+    border-right: 2px solid #000; /* Warna untuk garis kanan (kolom) */
+    text-transform: uppercase;
+}
+
+/* Garis pada sel kolom (td) */
+
+td {
+    padding: 12px 20px;
+    text-align: left;
+    color: #333;
+    border-top: 2px solid #000;  /* Warna untuk garis baris horizontal */
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000; /* Warna untuk garis kolom vertikal */
+    border-right: 2px solid #000;
+}
+
+/* Gantikan warna latar belakang untuk baris genap */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Ganti warna saat baris di-hover */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mengatur Tombol */
+
+.btn-edit, .btn-danger {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 20px; /* Menambahkan jarak antar tombol */
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
+    vertical-align: middle; /* Sejajarkan tombol di tengah secara vertikal */
+    display: flex;
+    gap: 10px; /* Jarak antara tombol Edit dan Hapus */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Warna tombol hapus */
+}
+
+.btn-edit:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+
+
+
+/* ------ Penyesuaian Footer ------ */
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #0073e6;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    margin-top: auto; /* Menempatkan footer di bagian bawah */
+}

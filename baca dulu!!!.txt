@@ -1,0 +1,7 @@
+1. Extrak file zip
+2. Simpan folder di folder xampp/htdoct
+3. buka localhost/phpmyadmin
+4. buat data base dengan nama "universitas_muh_brebes"
+5. import file universitas_muh_brebes.sql
+6. buka localhost/tugas_faqih
+7. login dengan username: "admin1" dan password: "admin1"

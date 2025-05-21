@@ -1,0 +1,112 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('latar1.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Membuat gambar menyesuaikan ukuran layar */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontal Center */
+    align-items: center; /* Vertical Center */
+    min-height: 100vh; /* Menggunakan tinggi penuh viewport */
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparansi pada container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #0652f8;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Form (Umum untuk semua form) */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Elemen Input */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Checkbox and Label */
+form .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Tombol Submit */
+.btn-submit {
+    padding: 10px 15px;
+    background-color: #28a745; /* Warna solid hijau */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Lebar penuh */
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #218838; /* Warna hijau lebih gelap */
+}
+
+/* Tombol Batal */
+.btn-batal {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #ff5e57; /* Warna solid merah */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-batal:hover {
+    background-color: #e04842; /* Warna merah lebih gelap */
+}
+
+.centered-text {
+    text-align: center;
+    font-size: 16px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.remember-me input {
+    margin-right: 5px;
+}
