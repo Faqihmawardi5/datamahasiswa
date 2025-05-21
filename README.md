@@ -20,3 +20,7 @@ Project ini merupakan latihan pengembangan aplikasi web dinamis menggunakan PHP 
 
 # Teknologi:
 PHP, MySQL, HTML, CSS, JavaScript, dan Bootstrap.
+
+# Akses:
+username : admin1
+password : admin1
