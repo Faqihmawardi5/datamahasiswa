@@ -18,6 +18,13 @@ Project ini merupakan latihan pengembangan aplikasi web dinamis menggunakan PHP 
 4. Mengatur struktur file dan folder pada proyek web tanpa framework
 5. Meningkatkan pemahaman terhadap logika pemrograman PHP
 
+# Screenshot
+<p align="center">
+  <img src="https://github.com/Faqihmawardi5/datamahasiswa/blob/main/screenshoot/Jepretan%20Layar%202025-01-09%20pada%2012.04.25.png" width="430" />
+  <img src="https://github.com/Faqihmawardi5/datamahasiswa/blob/main/screenshoot/Jepretan%20Layar%202025-01-09%20pada%2011.55.53.png" width="430" />
+</p>
+
+
 # Teknologi:
 PHP, MySQL, HTML, CSS, JavaScript, dan Bootstrap.
 
