@@ -30,5 +30,5 @@ Project ini merupakan latihan pengembangan aplikasi web dinamis menggunakan PHP 
 PHP, MySQL, HTML, CSS, JavaScript, dan Bootstrap.
 
 # Akses:
-username : admin1
-password : admin1
+<p>username : admin1</p>
+<p></p>password : admin1</p>
